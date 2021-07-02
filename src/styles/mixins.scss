@@ -1,0 +1,14 @@
+// 生成超出省略类名（如：.ellipsis-l1）
+@mixin overflowEllipsis($lines: ()) {
+  @each $line in $lines {
+    .ellipsis-l#{$line} {
+      display: -webkit-box;
+      -webkit-box-orient: vertical;
+      -webkit-line-clamp: $line;
+      overflow: hidden;
+      text-overflow: ellipsis;
+      white-space: pre-wrap;
+      word-break: break-all;
+    }
+  }
+}

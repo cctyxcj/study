@@ -1,0 +1,12 @@
+/* 
+ * 引入顺序最好不要修改，涉及引入顺序覆盖问题
+*/
+@import '~normalize.css/normalize.css'; // css reset module
+@import './reset.scss'; // 样式重置
+@import './element-variables.scss'; // 不可与element.scss调换位置
+@import './element-ui.scss'; // 必须在element-variables.scss后
+@import './variables.scss'; // 变量
+@import './mixins.scss'; // scss混合
+@import './transition.scss'; // 过渡动画
+@import './scrollbar.scss'; // 美化滚动条
+@import './common.scss'; // 通用样式

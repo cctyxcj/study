@@ -1,0 +1,121 @@
+.el-input {
+    width: 100%;
+}
+
+.el-select {
+    width: 100%;
+    .el-select__tags {
+        padding-left: 5px;
+    }
+
+    .el-input {
+        .el-select__caret {
+            color: #5D6781
+        }
+    }
+}
+
+.el-select-dropdown {
+    border-radius: 5px;
+    overflow: hidden;
+
+    &[x-placement^="bottom"] {
+        margin-top: 6px;
+    }
+
+    .el-select-dropdown__item {
+        &.is-disabled {
+            color: rgba($color: #C0C4CC, $alpha: 0.4);
+
+            &:hover {
+                background-color: transparent;
+            }
+        }
+    }
+
+    .popper__arrow {
+        display: none;
+    }
+}
+
+.el-date-editor {
+    &.el-input,
+    .el-input__inner {
+        width: 100%;
+    }
+    .el-range-separator {
+        width: auto;
+    }
+}
+
+.el-cascader {
+    width: 100%;
+}
+
+.el-button {
+    &.is-plain {
+        background-color: transparent;
+        border-color: currentColor;
+    }
+
+    +.el-button {
+        margin: 0 0 0 20px;
+    }
+}
+
+.el-avatar {
+    vertical-align: top;
+}
+
+.el-table {
+    background-color: transparent;
+    &::before {
+        display: none;
+    }
+    .el-table__row {
+        .el-button {
+            padding: 5px 10px;
+            border-radius: 999px;
+            margin: 5px 10px 5px 0;
+        }
+    }
+}
+
+.el-form {
+    .el-form-item__label {
+        color: #6A7692;
+    }
+
+    .el-form-item {
+        margin-bottom: 30px;
+    }
+
+    .el-form-item__content {
+        white-space: pre-wrap;
+        word-break: break-all;
+    }
+    
+    .el-form-item__error {
+        line-height: 16px;
+        white-space: nowrap;
+    }
+}
+
+.el-tooltip__popper {
+    &.is-light {
+        color: #333;
+    }
+}
+
+.el-image-viewer__close {
+    color: #fff;
+}
+
+.el-carousel--horizontal {
+    .el-carousel__indicators--horizontal {
+        white-space: nowrap;
+        .el-carousel__indicator--horizontal {
+            vertical-align: top;
+        }
+    }
+}
