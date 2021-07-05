@@ -26,6 +26,23 @@ export default {
       meta: {
         title: '语法'
       }
+    },
+    {
+      path: 'japanGrammarCreate',
+      name: 'japanGrammarCreate',
+      component: () => import('@/views/japan/grammar/create'),
+      hidden: true,
+      meta: {
+        title: '编辑语法'
+      }
+    },
+    {
+      path: 'alphabet',
+      name: 'alphabet',
+      component: () => import('@/views/japan/alphabet/index'),
+      meta: {
+        title: '五十音'
+      }
     }
   ]
 }

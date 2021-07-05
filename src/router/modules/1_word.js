@@ -16,7 +16,7 @@ export default {
       name: 'word',
       component: () => import('@/views/word/index'),
       meta: {
-        title: '词类'
+        title: '词/句类'
       }
     }
   ]

@@ -55,7 +55,7 @@ export default {
   },
 
   created() {
-    this.fetchNotReadMessageAmount()
+    // this.fetchNotReadMessageAmount()
   },
 
   beforeDestroy() {
