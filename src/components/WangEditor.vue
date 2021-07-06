@@ -44,6 +44,7 @@ export default {
   },
 
   mounted() {
+    console.log(this.value);
     this.init()
   },
 
@@ -156,6 +157,8 @@ export default {
       editor.create()
 
       this.editorInstance = editor
+
+      this.editorInstance.txt.html(this.value)
     },
 
     destroyEditor() {
