@@ -1,22 +1,51 @@
 <template>
   <div class="">
-    <template>
-      <el-button v-to="{ name: 'japanGrammarCreate' }" type="primary">创建</el-button>
-    </template>
-    <data-table
-      ref="dataTable"
-      v-loading="loading"
-      v-bind="{
-        data: list
-      }"
-      :columns="columns"
-    />
+    <el-tabs v-model="activeName">
+      <el-tab-pane label="名词" name="first">
+        <data-table
+          v-loading="loading"
+          v-bind="{
+            data: nlist
+          }"
+          :columns="columns"
+        />
+      </el-tab-pane>
+      <el-tab-pane label="动词" name="fourth">
+        <data-table
+          v-loading="loading"
+          v-bind="{
+            data: vlist
+          }"
+          :columns="columnv"
+        />
+      </el-tab-pane>
+      <el-tab-pane label="形容词" name="firth">
+        <data-table
+          v-loading="loading"
+          v-bind="{
+            data: adjlist
+          }"
+          :columns="columns"
+        />
+      </el-tab-pane>
+      <el-tab-pane label="副词" name="sixth">
+        <data-table
+          v-loading="loading"
+          v-bind="{
+            data: advlist
+          }"
+          :columns="columns"
+        />
+      </el-tab-pane>
+      <el-tab-pane label="声像词" name="serverth">拗长音</el-tab-pane>
+    </el-tabs>
+    
   </div>
 </template>
 
 <script>
 // import DataFilter from './dataFilter';
-
+var json = require('./data.json')
 export default {
   data() {
     const columns = [
@@ -27,10 +56,9 @@ export default {
             jsx: ({ row }) => {
               return (
                 <el-form label-width='auto' label-position='right'>
-                  <el-row gutter={ 20 }>
-                    <el-col span={ 24 }>
-                      <el-form-item label='注解'>{ row.sentences[0].annotation }</el-form-item>
-                      <el-form-item label='类型'>{ row.sentences[0].type }</el-form-item>
+                  <el-row gutter={ 10 }>
+                    <el-col span={ 12 }>
+                      <el-form-item label='例句'>{ row.sentences[0].e }</el-form-item>
                     </el-col>
                   </el-row>
                 </el-form>
@@ -39,6 +67,20 @@ export default {
           }
         ]
       },
+      {
+        prop: 'word',
+        label: '单词'
+      },
+      {
+        prop:"annotation",
+        label:"注解"
+      },
+      {
+        prop:"type",
+        label:"类型"
+      }
+    ]
+    const columnv = [
       {
         prop: 'word',
         label: '单词'
@@ -56,9 +98,12 @@ export default {
       }
     }
     return {
+      activeName:'first',
       loading: false,
       columns: (() => columns.concat(operationCol))(),
-      list: [
+      columnv: (() => columnv.concat(operationCol))(),
+      nlist: json.n,
+      vlist: [
         {
           word: 'is',
           sentences: [{
