@@ -1,0 +1,232 @@
+{
+    "list":[
+        {
+          "type": "一般句",
+          "key":"hagadesu",
+          "grammar": "名词 + は/が + 名词 + です",
+          "annotation": "...是...",
+          "sentences": {
+            "sentence": "あのひとはぼくのおにいさんです",
+            "annotation": "那个人是我的哥哥"
+          }
+        },
+        {
+            "type": "一般句",
+            "grammar": "(い形容词)くなる",
+            "key":"ikunaru",
+            "annotation": "变得...",
+            "sentences": {
+              "sentence": "おいしくなる",
+              "annotation": "变得好吃"
+            }
+          },
+          {
+            "type": "一般句",
+            "grammar": "(な形容词)になる...",
+            "key":"naninaru",
+            "annotation": "变得...",
+            "sentences": {
+              "sentence": "しずかになる",
+              "annotation": "变得安静"
+            }
+          },
+          {
+            "type": "一般句",
+            "grammar": "名词 + は/が + 名词 + ではありません/じゃありません",
+            "key":"dewaarimasennzyaarimasenn",
+            "annotation": "...不是...",
+            "sentences": {
+              "sentence": "父親は先生じゃありません",
+              "annotation": "父亲不是老师"
+            }
+          },
+          {
+            "type": "一般句",
+            "grammar": "名词 + も",
+            "key":"mo",
+            "annotation": "...也...",
+            "sentences": {
+              "sentence": "店(mise)で本(honn)を買(ka)いました。ペンも買いました",
+              "annotation": "在商店买了书,也买了笔"
+            }
+          },
+          {
+            "type": "一般句",
+            "grammar": "场所名词 + で",
+            "key":"de",
+            "annotation": "在...",
+            "sentences": {
+              "sentence": "食事(syokudou)でご飯(honn)を食(ta)べます",
+              "annotation": "在食堂吃饭"
+            }
+          },
+          {
+            "type": "一般句",
+            "grammar": "目的地名词 + に",
+            "key":"ni",
+            "annotation": "表示移动到达的场所",
+            "sentences": {
+              "sentence": "東京(toukyou)に行(i)きます",
+              "annotation": "去东京"
+            }
+          },
+          {
+            "type": "一般句",
+            "grammar": "时间点 + に ",
+            "key":"ni",
+            "annotation": "表示事情发生的时间点",
+            "sentences": {
+              "sentence": "七時(sitizi)に家(ie)を出(de)ます",
+              "annotation": "7点出门"
+            }
+          },
+          {
+            "type": "一般句",
+            "grammar": "名词 + を + 他动词",
+            "key":"wo",
+            "annotation": "表示他动词的作用对象",
+            "sentences": {
+              "sentence": "ごはんを食(ta)べんま",
+              "annotation": "吃饭"
+            }
+          },
+          {
+            "type": "一般疑问句",
+            "grammar": "名词 +　の + あとで /　动词た行 +　あとで",
+            "key":"noatode",
+            "annotation": "表示'...之后...'",
+            "sentences": {
+              "sentence": "仕事(sigoto)のあとで、飲(no)みにいきませんか",
+              "annotation": "下班后,要不要去喝一杯"
+            }
+          },
+          {
+            "type": "一般句",
+            "grammar": "名词 + がいちばん",
+            "key":"gaitibann",
+            "annotation": "表示三个以上事物做比较,程度最高的那个 翻译为'最..'",
+            "sentences": {
+              "sentence": "日本料理(nihonnryouri)の中(naka)で、寿司(susi)がいちばん好(su)きです",
+              "annotation": "日本料理中,我最喜欢寿司"
+            }
+          },
+          {
+            "type": "一般句",
+            "grammar": "名词 +　が欲しい",
+            "key":"gahosii",
+            "annotation": "表示说话人的愿望,希望.译'想要...'",
+            "sentences": {
+              "sentence": "彼女(kanozyo)が欲(ho)しいです",
+              "annotation": "想要女朋友"
+            }
+          },{
+            "type": "一般句",
+            "grammar": "文1 + から + 文2",
+            "key":"kara",
+            "annotation": "表示理由,原因.译'因为...'",
+            "sentences": {
+              "sentence": "眠(nemu)いから寝(ne)ます",
+              "annotation": "因为困所以睡觉"
+            }
+          },{
+            "type": "一般句",
+            "grammar": "あまり + 否定形",
+            "key":"amari",
+            "annotation": "表示程度不那么高.译'不太.../没怎么...'",
+            "sentences": {
+              "sentence": "昨日(kinou)はあまり勉強(bennkyou)しませんでした",
+              "annotation": "昨天没怎么学习"
+            }
+          },{
+            "type": "一般句",
+            "grammar": "名词 + だけ",
+            "key":"dake",
+            "annotation": "译'只.../仅仅...'",
+            "sentences": {
+              "sentence": "財布(saihu)の中(naka)には二百円(nihyakuenn)だけあります",
+              "annotation": "钱包里只有200日元"
+            }
+          },{
+            "type": "一般句",
+            "grammar": "名词 + で ",
+            "key":"de",
+            "annotation": "表示手段,方法.译'用...'",
+            "sentences": {
+              "sentence": "お箸(hasi)でご飯をたべます",
+              "annotation": "用筷子吃饭"
+            }
+          },{
+            "type": "一般句",
+            "grammar": "动词て形 + から ",
+            "key":"tekara",
+            "annotation": "译'...之后再.../然后...'",
+            "sentences": {
+              "sentence": "テレビをみてから、勉強します",
+              "annotation": "看电视之后再学习"
+            }
+          },{
+            "type": "一般句",
+            "grammar": "とても／(口语)とっても ",
+            "key":"totemo/tottemo",
+            "annotation": "表示程度很高.译'非常...'",
+            "sentences": {
+              "sentence": "今日はとても暑いですね",
+              "annotation": "今天真热啊"
+            }
+          },{
+            "type": "一般疑问句",
+            "grammar": " でしょう ",
+            "key":"tesyou",
+            "annotation": "表示向对方确认,或者征求对方同意.译'...吧?'",
+            "sentences": {
+              "sentence": "こね、昨日彼氏にもらったんだ。いいでしょう",
+              "annotation": "这个是昨天男朋友送我的,很棒吧"
+            }
+          },{
+            "type": "一般句",
+            "grammar": "普通型 + と思う ",
+            "key":"toomou",
+            "annotation": "表示陈述意见或推测.译'(我)认为.../(我)觉得'",
+            "sentences": {
+              "sentence": "食べ過(su)ぎは体(karada)によくないと思(omo)います",
+              "annotation": "我觉得吃太多对身体不好"
+            }
+          },{
+            "type": "一般句",
+            "grammar": "V(ます形)　+　たい ",
+            "key":"tai",
+            "annotation": "译'想要.../想...'",
+            "sentences": {
+              "sentence": "今夜(konnya)はラーメンがたべたいです",
+              "annotation": "今晚想吃拉面"
+            }
+          },{
+            "type": "一般句",
+            "grammar": "v(普通)+　とき /名词 +　とき / イAい　+とき　/ ナAな　+　とき",
+            "key":"toki",
+            "annotation": "译'...的时候'",
+            "sentences": {
+              "sentence": "時間(zikan)がないときは、朝(asa)ごはんをたべんません",
+              "annotation": "没时间的时候,就不吃早饭"
+            }
+          },{
+            "type": "一般疑问句",
+            "grammar": "V(て形) +　もいいですか",
+            "key":"temoiidesuka",
+            "annotation": "表示征求同意,寻求许可.译'我可以...吗?'",
+            "sentences": {
+              "sentence": "ここに座(suwa)ってもいいですか",
+              "annotation": "我可以做这里吗"
+            }
+          },{
+            "type": "一般句",
+            "grammar": "とても／(口语)とっても ",
+            "key":"totemo/tottemo",
+            "annotation": "表示程度很高.译'非常...'",
+            "sentences": {
+              "sentence": "今日はとても暑いですね",
+              "annotation": "今天真热啊"
+            }
+          }
+      ]
+}

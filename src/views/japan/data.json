@@ -1,40 +1,60 @@
 {
     "n": [
         {
-            "word": "is",
+            "word": "おちゃ",
+            "chi":"お茶",
+            "tra":"茶,茶水",
+            "fif":"otya",
+            "type":"饮料",
             "sentences": [
                 {
-                    "annotation": "是",
-                    "type": "v"
+                    "exam": "おちゃを飲みました",
+                    "tra": "喝茶"
                 }
             ]
         },
         {
-            "word": "is",
+            "word": "おじ",
+            "chi":"伯父",
+            "tra":"(我的)叔叔,伯伯.舅舅,姑父",
+            "fif":"ozi",
+            "type":"亲戚",
             "sentences": [
                 {
-                    "annotation": "是",
-                    "type": "v"
+                    "exam": "おじとおばがが来ました",
+                    "tra": "(我的)叔叔和阿姨来了"
                 }
             ]
         },
         {
-            "word": "is",
+            "word": "おそば",
+            "chi":"お蕎麦",
+            "tra":"荞麦面",
+            "fif":"osoba",
+            "type":"食物",
             "sentences": [
                 {
-                    "annotation": "是",
-                    "type": "v"
-                }
-            ]
-        },
-        {
-            "word": "is",
-            "sentences": [
-                {
-                    "annotation": "是",
-                    "type": "v"
+                    "exam": "おそばを作って食べました",
+                    "tra": "做碗荞麦面吃了"
                 }
             ]
         }
-    ]
+    ],
+    "adj":[
+        {
+            "word": "しずか だ",
+            "chi":"静か だ",
+            "tra":"安静",
+            "fif":"sizuka",
+            "type":"な",
+            "sentences": [
+                {
+                    "exam": "静かな部屋",
+                    "tra": "安静的房间"
+                }
+            ]
+        }
+    ],
+    "adv":[],
+    "au":[]
 }

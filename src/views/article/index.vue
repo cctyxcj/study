@@ -1,8 +1,8 @@
 <template>
   <div class="">
-    <template>
+    <!-- <template>
       <el-button v-to="{ name: 'articleDetails' }" type="primary">创建</el-button>
-    </template>
+    </template> -->
     <data-table
       ref="dataTable"
       v-loading="loading"
@@ -16,17 +16,13 @@
 
 <script>
 // import DataFilter from './dataFilter';
-
+var json = require('./data.json')
 export default {
   data() {
     const columns = [
       {
         prop: 'title',
         label: '题目'
-      },
-      {
-        prop: 'author',
-        label: '作者'
       },
       {
         prop: 'author',
@@ -43,7 +39,7 @@ export default {
         return (
           <el-button
             type='primary'
-            onClick={ () => this.$router.push({ name: 'articleDetails', query: { id: row.id }}) }
+            onClick={ () => this.$router.push({ name: 'articleDetails', params: { id: row.id }}) }
           >查看</el-button>
         )
       }
@@ -51,13 +47,7 @@ export default {
     return {
       loading: false,
       columns: (() => columns.concat(operationCol))(),
-      list: [
-        {
-          title: '105°的热爱',
-          author: '未知',
-          provenance:'网红音乐'
-        }
-      ]
+      list: json.txt
     }
   },
 

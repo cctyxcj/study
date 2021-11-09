@@ -24,7 +24,7 @@ export default {
       name: 'japanGrammar',
       component: () => import('@/views/japan/grammar/index'),
       meta: {
-        title: '语法'
+        title: '文法'
       }
     },
     {

@@ -1,13 +1,27 @@
 <template>
   <div class="">
-    <template>
+    <!-- <template>
       <el-button v-to="{ name: 'japanGrammarCreate' }" type="primary">创建</el-button>
-    </template>
+    </template> -->
+    <div class="search">
+      <el-input
+        v-model="fifsea"
+        placeholder="五十音索引"
+        prefix-icon="el-icon-search"
+        clearable
+      />
+      <el-input
+        v-model="typesea"
+        placeholder="类型索引"
+        prefix-icon="el-icon-search"
+        clearable
+      />
+    </div>
     <data-table
       ref="dataTable"
       v-loading="loading"
       v-bind="{
-        data: list
+        data: w
       }"
       :columns="columns"
     />
@@ -16,7 +30,7 @@
 
 <script>
 // import DataFilter from './dataFilter';
-
+var json = require('./data.json')
 export default {
   data() {
     const columns = [
@@ -52,73 +66,30 @@ export default {
         label: '类型'
       }
     ]
-    const operationCol = {
-      label: '操作',
-      formatter: (row, column, cellValue, index) => {
-        return (
-          <el-button
-            type='primary'
-            onClick={ () => this.$router.push({ name: 'japanGrammarCreate', query: { id: row.id }}) }
-          >编辑</el-button>
-        )
-      }
-    }
+    // const operationCol = {
+    //   label: '操作',
+    //   formatter: (row, column, cellValue, index) => {
+    //     return (
+    //       <el-button
+    //         type='primary'
+    //         onClick={ () => this.$router.push({ name: 'japanGrammarCreate', query: { id: row.id }}) }
+    //       >编辑</el-button>
+    //     )
+    //   }
+    // }
     return {
       loading: false,
-      columns: (() => columns.concat(operationCol))(),
-      list: [
-        {
-          type: '一般句',
-          grammar: '...は...',
-          annotation: '...是...',
-          sentences: {
-            sentence: 'あのひとはぼくのおにいさんです',
-            annotation: '那个人是我的哥哥'
-          }
-        },
-        {
-          type: '一般句',
-          grammar: '...は...',
-          annotation: '...是...',
-          sentences: {
-            sentence: 'あのひとはぼくのおにいさんです',
-            annotation: '那个人是我的哥哥'
-          }
-        },
-        {
-          type: '一般句',
-          grammar: '...は...',
-          annotation: '...是...',
-          sentences: {
-            sentence: 'あのひとはぼくのおにいさんです',
-            annotation: '那个人是我的哥哥'
-          }
-        },
-        {
-          type: '一般句',
-          grammar: '...は...',
-          annotation: '...是...',
-          sentences: {
-            sentence: 'あのひとはぼくのおにいさんです',
-            annotation: '那个人是我的哥哥'
-          }
-        },
-        {
-          type: '一般句',
-          grammar: '...は...',
-          annotation: '...是...',
-          sentences: {
-            sentence: 'あのひとはぼくのおにいさんです',
-            annotation: '那个人是我的哥哥'
-          }
-        }
-      ]
+      columns: columns,
+      list: json.list,
+      fifsea: '',
+      typesea: ''
     }
   },
-
-  //   components: {
-  //     DataFilter
-  //   },
+  computed: {
+    w() {
+      return this.list.filter(item => (item.key.indexOf(this.fifsea) >= 0) && (item.type.indexOf(this.typesea) >= 0))
+    }
+  },
 
   mounted() {
   },
@@ -128,4 +99,10 @@ export default {
 }
 </script>
 
-<style lang="scss" scoped></style>
+<style lang="scss" scoped>
+.el-input {
+    width: 300px;
+    margin-right: 50px;
+    margin-bottom: 10px;
+}
+</style>
