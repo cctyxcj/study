@@ -1,60 +1,464 @@
 {
-    "n": [
-        {
+    "n": [{
             "word": "おちゃ",
-            "chi":"お茶",
-            "tra":"茶,茶水",
-            "fif":"otya",
-            "type":"饮料",
-            "sentences": [
-                {
-                    "exam": "おちゃを飲みました",
-                    "tra": "喝茶"
-                }
-            ]
+            "chi": "お茶",
+            "tra": "茶,茶水",
+            "fif": "otya",
+            "type": "饮料",
+            "sentences": [{
+                "exam": "おちゃを飲みました",
+                "tra": "喝茶"
+            }]
         },
         {
             "word": "おじ",
-            "chi":"伯父",
-            "tra":"(我的)叔叔,伯伯.舅舅,姑父",
-            "fif":"ozi",
-            "type":"亲戚",
-            "sentences": [
-                {
-                    "exam": "おじとおばがが来ました",
-                    "tra": "(我的)叔叔和阿姨来了"
-                }
-            ]
+            "chi": "伯父",
+            "tra": "(我的)叔叔,伯伯.舅舅,姑父",
+            "fif": "ozi",
+            "type": "亲戚",
+            "sentences": [{
+                "exam": "おじとおばがが来ました",
+                "tra": "(我的)叔叔和阿姨来了"
+            }]
         },
         {
             "word": "おそば",
-            "chi":"お蕎麦",
-            "tra":"荞麦面",
-            "fif":"osoba",
-            "type":"食物",
-            "sentences": [
-                {
-                    "exam": "おそばを作って食べました",
-                    "tra": "做碗荞麦面吃了"
-                }
-            ]
-        }
-    ],
-    "adj":[
+            "chi": "お蕎麦",
+            "tra": "荞麦面",
+            "fif": "osoba",
+            "type": "食物",
+            "sentences": [{
+                "exam": "おそばを作って食べました",
+                "tra": "做碗荞麦面吃了"
+            }]
+        },
         {
-            "word": "しずか だ",
-            "chi":"静か だ",
-            "tra":"安静",
-            "fif":"sizuka",
-            "type":"な",
-            "sentences": [
-                {
-                    "exam": "静かな部屋",
-                    "tra": "安静的房间"
-                }
-            ]
+            "word": "かぞく",
+            "chi": "家族",
+            "tra": "家人",
+            "fif": "kazoku",
+            "type": "亲戚",
+            "sentences": [{
+                "exam": "私の家族は三人です",
+                "tra": "我家是三个人"
+            }]
+        },
+        {
+            "word": "やさい",
+            "chi": "野菜",
+            "tra": "蔬菜",
+            "fif": "yasai",
+            "type": "蔬菜",
+            "sentences": [{
+                "exam": "野菜は好き",
+                "tra": "喜欢蔬菜"
+            }]
+        }, {
+            "word": "トマト",
+            "chi": "トマト",
+            "tra": "番茄",
+            "fif": "tomato",
+            "type": "片假名 蔬菜",
+            "sentences": [{
+                "exam": "トマトがすきなので、毎日食べます",
+                "tra": "我喜欢番茄,所以每天都吃"
+            }]
+        }, {
+            "word": "じゃがいも",
+            "chi": "じゃがいも",
+            "tra": "土豆/马铃薯",
+            "fif": "zyagaimo",
+            "type": "蔬菜",
+            "sentences": [{
+                "exam": "じゃがいもの皮(kawa)むきがめんどくさいんですよね",
+                "tra": "土豆去皮真麻烦呢"
+            }]
+        }, {
+            "word": "にんじん",
+            "chi": "人参",
+            "tra": "胡萝卜",
+            "fif": "ninnjin",
+            "type": "蔬菜",
+            "sentences": [{
+                "exam": "人参ケーキ",
+                "tra": "胡萝卜蛋糕"
+            }]
+        }, {
+            "word": "たまねぎ",
+            "chi": "玉ねぎ",
+            "tra": "洋葱",
+            "fif": "tamanegi",
+            "type": "蔬菜",
+            "sentences": [{
+                "exam": "玉ねぎを切る",
+                "tra": "切洋葱"
+            }]
+        }, {
+            "word": "ねぎ",
+            "chi": "ねぎ",
+            "tra": "大葱",
+            "fif": "negi",
+            "type": "蔬菜",
+            "sentences": [{
+                "exam": "ねぎはすきです",
+                "tra": "喜欢大葱"
+            }]
+        }, {
+            "word": "キャベツ",
+            "chi": "キャベツ",
+            "tra": "卷心菜/高丽菜",
+            "fif": "kyabetu",
+            "type": "蔬菜 片假名",
+            "sentences": [{
+                "exam": "キャベツベーコン炒(ita)め",
+                "tra": "培根炒卷心菜"
+            }]
+        }, {
+            "word": "はくさい",
+            "chi": "白菜",
+            "tra": "白菜",
+            "fif": "hakusai",
+            "type": "蔬菜",
+            "sentences": [{
+                "exam": "白菜のスープ",
+                "tra": "白菜汤"
+            }]
+        }, {
+            "word": "ほうれんそう",
+            "chi": "ほうれん草",
+            "tra": "菠菜",
+            "fif": "hourennsou",
+            "type": "蔬菜",
+            "sentences": [{
+                "exam": "ほうれん草カレー",
+                "tra": "菠菜咖喱"
+            }]
+        }, {
+            "word": "ピーマン",
+            "chi": "ピーマン",
+            "tra": "青椒",
+            "fif": "pi-man",
+            "type": "片假名 蔬菜",
+            "sentences": [{
+                "exam": "ピーマンが嫌いな子供多い",
+                "tra": "许多孩子不喜欢青椒"
+            }]
+        }, {
+            "word": "ショウガ",
+            "chi": "ショウガ",
+            "tra": "生姜",
+            "fif": "shouga",
+            "type": "片假名 蔬菜",
+            "sentences": [{
+                "exam": "ショウガをみじん切りにします",
+                "tra": "把生姜切碎"
+            }]
+        },
+        {
+            "word": "にんにく",
+            "chi": "にんにく",
+            "tra": "大蒜",
+            "fif": "ninnniku",
+            "type": "蔬菜",
+            "sentences": [{
+                "exam": "にんにく多めツーフードカレー",
+                "tra": "加很多大蒜的海鲜咖喱"
+            }]
+        }, {
+            "word": "きゅうり",
+            "chi": "きゅうり",
+            "tra": "黄瓜",
+            "fif": "kyuuri",
+            "type": "蔬菜",
+            "sentences": [{
+                "exam": "きゅうりの漬物(tukemono)を作(tuku)りました",
+                "tra": "我做了腌黄瓜"
+            }]
+        }, {
+            "word": "ブロッコリー",
+            "chi": "ブロッコリー",
+            "tra": "西兰花/花椰菜",
+            "fif": "burokkori-",
+            "type": "蔬菜 片假名",
+            "sentences": [{
+                "exam": "蒸(mu)しブロッコリー",
+                "tra": "蒸西兰花"
+            }]
+        }, {
+            "word": "トウモロコツ",
+            "chi": "トウモロコツ",
+            "tra": "玉米",
+            "fif": "toumorokotu",
+            "type": "蔬菜 片假名",
+            "sentences": [{
+                "exam": "焼(ya)きトウモロコツ",
+                "tra": "烤玉米"
+            }]
+        }, {
+            "word": "かぼちゃ",
+            "chi": "かぼちゃ",
+            "tra": "南瓜",
+            "fif": "kabotya",
+            "type": "蔬菜",
+            "sentences": [{
+                "exam": "かぼちゃの煮物(nimono)",
+                "tra": "煮南瓜"
+            }]
+        }, {
+            "word": "だいこん",
+            "chi": "大根",
+            "tra": "白萝卜",
+            "fif": "daikonn",
+            "type": "蔬菜",
+            "sentences": [{
+                "exam": "大根おろし",
+                "tra": "萝卜泥"
+            }]
+        }, {
+            "word": "しいたけ",
+            "chi": "椎茸",
+            "tra": "香菇",
+            "fif": "siitake",
+            "type": "蔬菜",
+            "sentences": [{
+                "exam": "椎茸と牛肉(kyuuniku)炒(ita)め",
+                "tra": "香菇炒牛肉"
+            }]
+        }, {
+            "word": "えだまめ",
+            "chi": "枝豆",
+            "tra": "毛豆",
+            "fif": "edamame",
+            "type": "蔬菜 豆",
+            "sentences": [{
+                "exam": "枝豆はビールーに合(a)う",
+                "tra": "毛豆配啤酒很搭"
+            }]
+        }, {
+            "word": "ニラ",
+            "chi": "ニラ",
+            "tra": "韭菜",
+            "fif": "nira",
+            "type": "蔬菜 片假名",
+            "sentences": [{
+                "exam": "ニラと卵(tamago)の餃子(kyouza)",
+                "tra": "韭菜鸡蛋饺子"
+            }]
+        }, {
+            "word": "もやし",
+            "chi": "もやし",
+            "tra": "豆芽",
+            "fif": "moyasi",
+            "type": "蔬菜",
+            "sentences": [{
+                "exam": "もやしきゅうりの中華(tyuuka)サラダ",
+                "tra": "中国风味的豆芽黄瓜沙拉"
+            }]
+        }, {
+            "word": "レタス",
+            "chi": "レタス",
+            "tra": "生菜/莴苣",
+            "fif": "retasu",
+            "type": "蔬菜 片假名",
+            "sentences": [{
+                "exam": "レタスサラダ",
+                "tra": "生菜沙拉"
+            }]
+        },
+        {
+            "word": "いぬ",
+            "chi": "犬",
+            "tra": "狗",
+            "fif": "inu",
+            "type": "动物",
+            "sentences": [{
+                "exam": "犬は可愛いくてかってみたいと思います",
+                "tra": "狗狗好可爱,我想养一只"
+            }]
+        }, {
+            "word": "ねこ",
+            "chi": "猫",
+            "tra": "猫",
+            "fif": "neko",
+            "type": "动物",
+            "sentences": [{
+                "exam": "猫カフェにはよくいきます",
+                "tra": "我经常去猫咪咖啡馆"
+            }]
+        }, {
+            "word": "うま",
+            "chi": "馬",
+            "tra": "马",
+            "fif": "uma",
+            "type": "动物",
+            "sentences": [{
+                "exam": "あの二人は馬が合わない",
+                "tra": "他们两人很合不来"
+            }]
+        }, {
+            "word": "うさぎ",
+            "chi": "うさぎ",
+            "tra": "兔子",
+            "fif": "usagi",
+            "type": "动物",
+            "sentences": [{
+                "exam": "うさぎにおもちゃを買ってあげたいのです",
+                "tra": "我想给兔子买玩具"
+            }]
+        }, {
+            "word": "ゴリラ",
+            "chi": "ゴリラ",
+            "tra": "大猩猩",
+            "fif": "gorira",
+            "type": "动物 片假名",
+            "sentences": [{
+                "exam": "ゴリラを超えるパワーを持つ動物(doubutu)はいますか",
+                "tra": "有比大猩猩更有力量的动物吗"
+            }]
+        }, {
+            "word": "うし",
+            "chi": "牛",
+            "tra": "牛",
+            "fif": "usi",
+            "type": "动物",
+            "sentences": [{
+                "exam": "牛の胃っていったいいくつあるんですか",
+                "tra": "牛到底有几个胃"
+            }]
+        }, {
+            "word": "ぶた",
+            "chi": "豚",
+            "tra": "猪",
+            "fif": "buta",
+            "type": "动物",
+            "sentences": [{
+                "exam": "豚の串焼き(kusiyaki)が急(kyuu)に食べたくなりました",
+                "tra": "突然好想吃猪肉串烧"
+            }]
+        }, {
+            "word": "くま",
+            "chi": "くま",
+            "tra": "熊",
+            "fif": "kuma",
+            "type": "动物",
+            "sentences": [{
+                "exam": "コストコの大きなくまのぬいぐるみを買いたい",
+                "tra": "我想买costco的大毛绒熊"
+            }]
+        }, {
+            "word": "パンダ",
+            "chi": "パンダ",
+            "tra": "熊猫",
+            "fif": "pannda",
+            "type": "动物 片假名",
+            "sentences": [{
+                "exam": "マスカラをつけるといつもパンダ目になってしまいます",
+                "tra": "每次涂睫毛膏都会变熊猫眼"
+            }]
+        }, {
+            "word": "キリン",
+            "chi": "キリン",
+            "tra": "长颈鹿",
+            "fif": "kirinn",
+            "type": "动物 片假名",
+            "sentences": [{
+                "exam": "私はキリンを見たことがありません",
+                "tra": "我从没见过长颈鹿"
+            }]
+        }, {
+            "word": "ぞう",
+            "chi": "象",
+            "tra": "大象",
+            "fif": "zou",
+            "type": "动物",
+            "sentences": [{
+                "exam": "もしあなたが象に変身したら、まず何がしたい",
+                "tra": "如果你变成大象,第一件事想做什么"
+            }]
+        }, {
+            "word": "リス",
+            "chi": "リス",
+            "tra": "松鼠",
+            "fif": "risu",
+            "type": "动物",
+            "sentences": [{
+                "exam": "リスは枝(eda)の上(ue)にいます",
+                "tra": "松鼠在树枝上"
+            }]
         }
     ],
-    "adv":[],
-    "au":[]
+    "adj": [{
+        "word": "しずか だ",
+        "chi": "静か だ",
+        "tra": "安静",
+        "fif": "sizuka",
+        "type": "な",
+        "sentences": [{
+            "exam": "静かな部屋",
+            "tra": "安静的房间"
+        }]
+    }],
+    "adv": [],
+    "au": [],
+    "v": [{
+        "word": "いく",
+        "chi": "行く",
+        "tra": "去",
+        "fif": "iku",
+        "type": "5",
+        "sentences": [{
+            "exam": "公園へ散歩に行きます",
+            "tra": "去公园散步"
+        }]
+    }, {
+        "word": "かえる",
+        "chi": "帰る",
+        "tra": "回去",
+        "fif": "kaeru",
+        "type": "1",
+        "sentences": [{
+            "exam": "友達と一緒にかえる",
+            "tra": "和朋友一起回家"
+        }]
+    }, {
+        "word": "たべる",
+        "chi": "食べる",
+        "tra": "吃",
+        "fif": "taberu",
+        "type": "5",
+        "sentences": [{
+            "exam": "家に帰ってから、ご飯を食べる",
+            "tra": "回家后吃饭"
+        }]
+    }, {
+        "word": "おわる",
+        "chi": "終わる",
+        "tra": "结束",
+        "fif": "owaru",
+        "type": "5",
+        "sentences": [{
+            "exam": "旅行(ryokou)の準備(zyunnbi)はもう終わった",
+            "tra": "旅行的准备结束了吗"
+        }]
+    }, {
+        "word": "べんきょうする",
+        "chi": "勉強する",
+        "tra": "学习",
+        "fif": "benkyousuru",
+        "type": "5",
+        "sentences": [{
+            "exam": "日本語を勉強します",
+            "tra": "学习日语"
+        }]
+    }, {
+        "word": "みる",
+        "chi": "見るる",
+        "tra": "看",
+        "fif": "miru",
+        "type": "1",
+        "sentences": [{
+            "exam": "勉強をしながらテレビを見る",
+            "tra": "一遍学习一遍看电视"
+        }]
+    }]
 }

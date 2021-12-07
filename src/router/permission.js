@@ -5,7 +5,7 @@ import { Message } from 'element-ui'
 
 import { PAGE_TITLE } from '@/config'
 
-import { getToken } from '@/utils/token' // get token from cookie
+// import { getToken } from '@/utils/token' // get token from cookie
 
 import NProgress from 'nprogress' // progress bar
 import 'nprogress/nprogress.css' // progress bar style
@@ -35,7 +35,8 @@ router.beforeEach(async(to, from, next) => {
   document.title = getPageTitle(to.meta.title)
 
   // determine whether the user has logged in
-  const hasToken = getToken()
+  // const hasToken = getToken()
+  const hasToken = true
 
   // determine whether the user has obtained his permission roles through getUserInfo
   // const hasRoles = store.getters.roles && store.getters.roles.length > 0

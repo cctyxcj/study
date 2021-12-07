@@ -1,8 +1,8 @@
 <template>
   <div class="">
-    <!-- <template>
+    <template>
       <el-button v-to="{ name: 'japanGrammarCreate' }" type="primary">创建</el-button>
-    </template> -->
+    </template>
     <div class="search">
       <el-input
         v-model="fifsea"
@@ -13,6 +13,12 @@
       <el-input
         v-model="typesea"
         placeholder="类型索引"
+        prefix-icon="el-icon-search"
+        clearable
+      />
+      <el-input
+        v-model="trasea"
+        placeholder="注释索引"
         prefix-icon="el-icon-search"
         clearable
       />
@@ -82,12 +88,13 @@ export default {
       columns: columns,
       list: json.list,
       fifsea: '',
-      typesea: ''
+      typesea: '',
+      trasea: ''
     }
   },
   computed: {
     w() {
-      return this.list.filter(item => (item.key.indexOf(this.fifsea) >= 0) && (item.type.indexOf(this.typesea) >= 0))
+      return this.list.filter(item => (item.key.indexOf(this.fifsea) >= 0) && (item.type.indexOf(this.typesea) >= 0) && (item.annotation.indexOf(this.trasea) >= 0))
     }
   },
 

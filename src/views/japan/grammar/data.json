@@ -3,7 +3,7 @@
         {
           "type": "一般句",
           "key":"hagadesu",
-          "grammar": "名词 + は/が + 名词 + です",
+          "grammar": "N + は/が + N + です",
           "annotation": "...是...",
           "sentences": {
             "sentence": "あのひとはぼくのおにいさんです",
@@ -12,9 +12,9 @@
         },
         {
             "type": "一般句",
-            "grammar": "(い形容词)くなる",
+            "grammar": "(い形容词)く 或 (な形容词)に 或 Nに + なる",
             "key":"ikunaru",
-            "annotation": "变得...",
+            "annotation": "表示状态的变化",
             "sentences": {
               "sentence": "おいしくなる",
               "annotation": "变得好吃"
@@ -22,17 +22,7 @@
           },
           {
             "type": "一般句",
-            "grammar": "(な形容词)になる...",
-            "key":"naninaru",
-            "annotation": "变得...",
-            "sentences": {
-              "sentence": "しずかになる",
-              "annotation": "变得安静"
-            }
-          },
-          {
-            "type": "一般句",
-            "grammar": "名词 + は/が + 名词 + ではありません/じゃありません",
+            "grammar": "N + は/が + N + ではありません/じゃありません",
             "key":"dewaarimasennzyaarimasenn",
             "annotation": "...不是...",
             "sentences": {
@@ -42,7 +32,7 @@
           },
           {
             "type": "一般句",
-            "grammar": "名词 + も",
+            "grammar": "N + も",
             "key":"mo",
             "annotation": "...也...",
             "sentences": {
@@ -52,7 +42,7 @@
           },
           {
             "type": "一般句",
-            "grammar": "场所名词 + で",
+            "grammar": "场所N + で",
             "key":"de",
             "annotation": "在...",
             "sentences": {
@@ -62,7 +52,7 @@
           },
           {
             "type": "一般句",
-            "grammar": "目的地名词 + に",
+            "grammar": "目的地N + に",
             "key":"ni",
             "annotation": "表示移动到达的场所",
             "sentences": {
@@ -82,7 +72,7 @@
           },
           {
             "type": "一般句",
-            "grammar": "名词 + を + 他动词",
+            "grammar": "N + を + 他动词",
             "key":"wo",
             "annotation": "表示他动词的作用对象",
             "sentences": {
@@ -92,7 +82,7 @@
           },
           {
             "type": "一般疑问句",
-            "grammar": "名词 +　の + あとで /　动词た行 +　あとで",
+            "grammar": "N +　の + あとで /　V(た形) +　あとで",
             "key":"noatode",
             "annotation": "表示'...之后...'",
             "sentences": {
@@ -102,7 +92,7 @@
           },
           {
             "type": "一般句",
-            "grammar": "名词 + がいちばん",
+            "grammar": "N + がいちばん",
             "key":"gaitibann",
             "annotation": "表示三个以上事物做比较,程度最高的那个 翻译为'最..'",
             "sentences": {
@@ -112,7 +102,7 @@
           },
           {
             "type": "一般句",
-            "grammar": "名词 +　が欲しい",
+            "grammar": "N +　が欲しい",
             "key":"gahosii",
             "annotation": "表示说话人的愿望,希望.译'想要...'",
             "sentences": {
@@ -139,7 +129,7 @@
             }
           },{
             "type": "一般句",
-            "grammar": "名词 + だけ",
+            "grammar": "N + だけ",
             "key":"dake",
             "annotation": "译'只.../仅仅...'",
             "sentences": {
@@ -148,7 +138,7 @@
             }
           },{
             "type": "一般句",
-            "grammar": "名词 + で ",
+            "grammar": "N + で ",
             "key":"de",
             "annotation": "表示手段,方法.译'用...'",
             "sentences": {
@@ -157,7 +147,7 @@
             }
           },{
             "type": "一般句",
-            "grammar": "动词て形 + から ",
+            "grammar": "V(て形) + から ",
             "key":"tekara",
             "annotation": "译'...之后再.../然后...'",
             "sentences": {
@@ -202,7 +192,7 @@
             }
           },{
             "type": "一般句",
-            "grammar": "v(普通)+　とき /名词 +　とき / イAい　+とき　/ ナAな　+　とき",
+            "grammar": "v(普通)+　とき /N +　とき / イAい　+とき　/ ナAな　+　とき",
             "key":"toki",
             "annotation": "译'...的时候'",
             "sentences": {
@@ -226,6 +216,79 @@
             "sentences": {
               "sentence": "今日はとても暑いですね",
               "annotation": "今天真热啊"
+            }
+          },{
+            "type": "一般句",
+            "grammar": "V(て形)　+　はいけない",
+            "key":"tehaikenai",
+            "annotation": "表示禁止.译'不能.../不要...'",
+            "sentences": {
+              "sentence": "ここでタバコを吸ってはいけませんよ",
+              "annotation": "这里不能吸烟哦"
+            }
+          },{
+            "type": "疑问句",
+            "grammar": "どうやって ",
+            "key":"douyatte",
+            "annotation": "表示询问方法.译'如何...'",
+            "sentences": {
+              "sentence": "これはどうやって使いますか",
+              "annotation": "这个怎么使用"
+            }
+          },{
+            "type": "一般句",
+            "grammar": "V1(タ形) +　り + V2(タ形) + り",
+            "key":"tari",
+            "annotation": "表示很多事物当中举出两三个代表性的例子",
+            "sentences": {
+              "sentence": "週末は買い物したり、映画をみたりしました",
+              "annotation": "周末我去购物,还看了电影"
+            }
+          },{
+            "type": "否定句",
+            "grammar": "V(ない形)　+　でください",
+            "key":"naidekudasai",
+            "annotation": "表示让对面不要做某事.译'不要...'",
+            "sentences": {
+              "sentence": "授業中にねないでください",
+              "annotation": "上课时不要睡觉"
+            }
+          },{
+            "type": "一般句",
+            "grammar": "Ｖ(ます形)　+　ながら",
+            "key":"nagara",
+            "annotation": "译'一边...一边...'",
+            "sentences": {
+              "sentence": "歌いながら掃除します",
+              "annotation": "边唱歌边打扫"
+            }
+          },{
+            "type": "一般句",
+            "grammar": "V(ナイ形)　+　くてもいい",
+            "key":"nakutemoii",
+            "annotation": "表示没必要做莫事.译'不...也可以/可以不...'",
+            "sentences": {
+              "sentence": "好きじゃないものは、食べなくてもいいですよ",
+              "annotation": "不喜欢的东西不吃也可以"
+            }
+          },{
+            "type": "一般句",
+            "grammar": "V(连用形)　+　やすい",
+            "key":"yasui",
+            "annotation": "表示方便做某事 .译' 便于../容易... '",
+            "sentences": {
+              "sentence": "文字(もじ)が大きくて、読みやすいですね",
+              "annotation": "字很大,很容易阅读"
+            }
+          }
+          ,{
+            "type": "一般句",
+            "grammar": "11111111",
+            "key":"11111",
+            "annotation": "表示 111 .译' 11111 '",
+            "sentences": {
+              "sentence": "11111111111",
+              "annotation": "11111111111"
             }
           }
       ]

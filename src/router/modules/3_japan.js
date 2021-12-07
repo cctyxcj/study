@@ -20,6 +20,15 @@ export default {
       }
     },
     {
+      path: 'japanCreate',
+      name: 'japanCreate',
+      component: () => import('@/views/japan/create'),
+      hidden: true,
+      meta: {
+        title: '添加单词'
+      }
+    },
+    {
       path: 'japanGrammar',
       name: 'japanGrammar',
       component: () => import('@/views/japan/grammar/index'),

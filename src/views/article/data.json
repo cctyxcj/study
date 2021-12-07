@@ -1,539 +1,649 @@
 {
-    "txt":[
+  "txt": [
+    {
+      "id": "1",
+      "title": "基础初级日语",
+      "author": "好好学日文",
+      "provenance": "youtober",
+      "musicurl": "",
+      "remarks": "",
+      "words": [
         {
-            "id": "1",
-        "title": "基础初级日语",
-        "author": "好好学日文",
-        "provenance": "youtober",
-        "musicurl": "",
-        "remarks": "",
-        "words": [
-          {
-            "w1": "しゅうと、やさしいよ",
-            "w2": "姑、優しいよ",
-            "w3": "我婆婆很和蔼"
-          }
-        ]
-        },
-        {
-            "id": "2",
-        "title": "生活日语",
-        "author": "好好学日文",
-        "provenance": "youtober",
-        "musicurl": "",
-        "remarks": "",
-        "words": [
-          {
-            "w1": "わたしはしらない",
-            "w2": "私は知らない",
-            "w3": "我不知道"
-          }
-        ]
-        },
-        {
-            "id": "3",
-        "title": "前前前世",
-        "author": "野田洋次郎",
-        "provenance": "你的名字",
-        "musicurl": "",
-        "remarks": "",
-        "words": [
-          {
-            "w1": "yatto me o samashi takai",
-            "w2": "やっと眼を覚ましたかい",
-            "w3": "总算睡醒了吗"
-          },
-          {
-            "w1": "sorenanoni naze me mo awaseyashinai n dai",
-            "w2": "それなのになぜ眼も合わせやしないんだい?",
-            "w3": "可你为什么不肯对上我的视线呢？"
-          },
-          {
-            "w1": "「osoi yo」 to okoru kimi",
-            "w2": "「遅いよ」と怒る君",
-            "w3": "可你为什么不肯对上我的视线呢？"
-          },
-          {
-            "w1": "kore demo yareru dake tobashite kita nda yo",
-            "w2": "これでもやれるだけ 飞ばしてきたんだよ",
-            "w3": "可即便如此我也已经尽我所能 以最快的速度飞奔到你的身边"
-          },
-          {
-            "w1": "kokoro ga karada o oikoshite kita nda yo",
-            "w2": "心が身体を追い越してきたんだよ",
-            "w3": "心脏甚至比身体先一步抵达了这里"
-          },
-          {
-            "w1": "kimi no kami ya hitomi dake de munegaitai yo",
-            "w2": "君の髪や瞳だけで胸が痛いよ",
-            "w3": "只是望着你的发丝和你的眼眸就让我痛彻心扉"
-          },
-          {
-            "w1": "onaji toki o suikonde hanashitakunai yo",
-            "w2": "同じ时を吸いこんで 离したくないよ",
-            "w3": "想和你呼吸在当下 再也不想和你分开"
-          },
-          {
-            "w1": "haruka mukashikara shiru sono-goe ni",
-            "w2": "遥か昔から知るその声に",
-            "w3": "很久很久以前就熟稔于心的声音"
-          },
-          {
-            "w1": "umarete hajimete nani o ieba i",
-            "w2": "生まれてはじめて 何を言えばいい?",
-            "w3": "有生以来第一次烦恼着 该如何回应？"
-          },
-          {
-            "w1": "kimi no zen zen zense kara boku wa",
-            "w2": "君の前前前世から仆は",
-            "w3": "从你的前前前世开始"
-          },
-          {
-            "w1": "kimi o sagashi hajimeta yo",
-            "w2": "君を探しはじめたよ",
-            "w3": "我就一直在寻找你的踪迹"
-          },
-          {
-            "w1": "sono bukitchona warai-kata o megakete yatte kita nda yo",
-            "w2": "そのぶきっちょな 笑い方をめがけてやってきたんだよ",
-            "w3": "循着你那笨拙的笑容 总算找到了这个地方"
-          },
-          {
-            "w1": "kimi ga zenzen zenbu nakunatte",
-            "w2": "君が全然全部なくなって",
-            "w3": "就算你的一切化为乌有"
-          },
-          {
-            "w1": "chiridjiri ni nattatte",
-            "w2": "チリヂリになったって",
-            "w3": "支离破碎散落世界各处"
-          },
-          {
-            "w1": "mo mayowanai mata ichi kara sagashi hajimeru-sa",
-            "w2": "もう迷わない また1から探しはじめるさ",
-            "w3": "我也不会再迷茫 我会从头开始再一次寻找"
-          },
-          {
-            "w1": "mushiro zero kara mata uchu o hajimete miyou ka",
-            "w2": "むしろ0から また宇宙をはじめてみようか",
-            "w3": "不如说就这样从零开始 再创造一个全新的宇宙"
-          },
-          {
-            "w1": "dokkara hanasu ka na",
-            "w2": "どっから话すかな",
-            "w3": "该从哪儿说起呢"
-          },
-          {
-            "w1": "kimi ga nemutte ita aida no sutori",
-            "w2": "君が眠っていた间のストーリー",
-            "w3": "在你沉睡这段期间的故事"
-          },
-          {
-            "w1": "nan oku nan-konen-bun no monogatari o katari ni kita nda yo",
-            "w2": "何亿 何光年分の物语を 语りにきたんだよ",
-            "w3": "历经上亿光年所编织的故事 我就是为了将其述说而来到这里的"
-          },
-          {
-            "w1": "kedo iza sono sugata kono me ni utsusu to",
-            "w2": "けどいざその姿この眼に映すと",
-            "w3": "但是当你的身影映入我的眼帘"
-          },
-          {
-            "w1": "kimi mo shiranu kimi to jarete tawamuretai yo",
-            "w2": "君も知らぬ君とジャレて戯れたいよ",
-            "w3": "我却想和你也不曾知晓的自己说笑玩闹"
-          },
-          {
-            "w1": "kimi no kienu itami made aishite mitai yo",
-            "w2": "君の消えぬ痛みまで 爱してみたいよ",
-            "w3": "包括长久纠缠你的苦痛 我也想一并地爱惜包容"
-          },
-          {
-            "w1": "ginga nankobun ka no hate ni deaeta",
-            "w2": "银河何个分かの果てに出逢えた その手を壊さずに",
-            "w3": "数不清是第几次穿越银河 才终于在尽头和你邂逅"
-          },
-          {
-            "w1": "sono-te o kowasazu ni do nigittanara i",
-            "w2": "どう握ったならいい",
-            "w3": "我该如何小心翼翼紧握住你的手才好？"
-          },
-          {
-            "w1": "kimi no zen zen zense kara boku wa",
-            "w2": "君の前前前世から仆は",
-            "w3": "从你的前前前世开始"
-          },
-          {
-            "w1": "kimi o sagashi hajimeta yo",
-            "w2": "君を探しはじめたよ",
-            "w3": "我就一直在寻找你的踪迹"
-          },
-          {
-            "w1": "sono sawagashi koe to namida o megake yatte kita nda yo",
-            "w2": "その騒がしい声と涙をめがけ やってきたんだよ",
-            "w3": "循着那喧嚣的噪音和你的眼泪 总算找到了这个地方"
-          },
-          {
-            "w1": "son'na kakumei zen'ya no bokura o",
-            "w2": "そんな革命前夜の仆らを",
-            "w3": "处于革命前夜的我们"
-          },
-          {
-            "w1": "dare ga tomeru to iu ndarou",
-            "w2": "谁が止めるというんだろう",
-            "w3": "你说还有谁能阻止呢"
-          },
-          {
-            "w1": "mo mayowanai kimi no haato ni hatawotateru yo",
-            "w2": "もう迷わない君のハートに旗を立てるよ",
-            "w3": "我已经不会再迷茫 在你的心中竖起属于我的旗帜"
-          },
-          {
-            "w1": "kimi wa boku kara akirame-kata o ubaitotta no",
-            "w2": "君は仆から谛め方を夺い取ったの",
-            "w3": "我放弃的念头早就被你夺走了"
-          },
-          {
-            "w1": "zen zen zense kara boku wa",
-            "w2": "前前前世から仆は",
-            "w3": "从你的前前前世开始"
-          },
-          {
-            "w1": "kimi o sagashi hajimeta yo",
-            "w2": "君を探しはじめたよ",
-            "w3": "我就一直在寻找你的踪迹"
-          },
-          {
-            "w1": "sono bukitchona warai-kata o megakete yatte kita nda yo",
-            "w2": "そのぶきっちょな 笑い方をめがけて やってきたんだよ",
-            "w3": "循着你那笨拙的笑容 总算找到了这个地方"
-          },
-          {
-            "w1": "kimi ga zenzen zenbu nakunatte",
-            "w2": "君が全然全部なくなって",
-            "w3": "就算你的一切化为乌有"
-          },
-          {
-            "w1": "chiridjiri ni nattatte",
-            "w2": "チリヂリになったって",
-            "w3": "支离破碎散落世界各处"
-          },
-          {
-            "w1": "mo mayowanai mata ichi kara sagashi hajimeru-sa",
-            "w2": "もう迷わない また1から探しはじめるさ",
-            "w3": "我也不会再迷茫 我会从头开始再一次寻找"
-          },
-          {
-            "w1": "nan-konen demo konoutawo kuchizusaminagara",
-            "w2": "何光年でも この歌を口ずさみながら",
-            "w3": "不管相隔多少个光年 我都会继续哼唱起这首歌"
-          }
-        ]
-        },
-        {
-            "id": "4",
-        "title": "香水",
-        "author": "",
-        "provenance": "",
-        "musicurl": "",
-        "remarks": "",
-        "words": [{
-            "w1":"yo na ka ni i ki na ri sa    i tsu a i te ru no tte ra i n",
-
-            "w2":"夜中（よなか）いきなりさ  いつ空（あ）いてるのって LINE(ライン)",
-            
-            "w3":"深夜时分你突然发来LINE  问我什么时候有空"
-           }, 
-            
-            {
-            "w1":"ki mi to ha mo u san nen ku ra i a tte na i no ni do u shi ta no",
-            
-            "w2":"君（きみ）とはもう三年（さんねん）くらい会（あ）ってないのにどうしたの",
-            
-            "w3":"已经和你约三年不见  如今这又是怎么了呢"
-           }, 
-            
-            {
-            "w1":"a no ko ro bo ku ta chi ha sa nan de mo de ki ru ki ga shi te ta",
-            
-            "w2":"あの頃僕達（ころぼくたち）はさなんでもできる気がしてた",
-            
-            "w3":"那时候的我们啊，感觉自己无所不能"
-           }, 
-            
-            {
-            "w1":"fu ta ri de u mi ni i tte ha ta ku san sya shin to tta ne",
-            
-            "w2":"二人（ふたり）で海（うみ）に行（い）ってはたくさん写真撮（しゃしんと）ったね",
-            
-            "w3":"两个人一起去了海边拍了很多照片呢"
-           }, 
-            
-            {
-            "w1":"de mo mi te yo i ma no bo ku wo",
-            
-            "w2":"でもみてよ今（いま）の僕（ぼく）を",
-            
-            "w3":"但是看啊 如今的我"
-           }, 
-            
-            {
-            "w1":"ku zu ni na tta bo ku wo",
-            
-            "w2":"クズになった僕（ぼく）を",
-            
-            "w3":"这变得混蛋的我"
-           }, 
-            
-            {
-            "w1":"hi to wo ki zu tsu ke te ma ta na ka se te mo",
-            
-            "w2":"人（ひと）を傷（きず）つけてまた泣（な）かせても",
-            
-            "w3":"即使让人受伤哭泣"
-           }, 
-            
-            {
-            "w1":"na ni mo kan ji to re na ku te sa",
-            
-            "w2":"何（なに）も感（かん）じ取（と）れなくてさ",
-            
-            "w3":"我都已经无动于衷"
-           }, 
-            
-            {
-            "w1":"be tsu ni ki mi wo mo to me te na i ke do",
-            
-            "w2":"別（べつ）に君（きみ）を求（もと）めてないけど",
-            
-            "w3":"我对你没有怎样的奢求"
-           }, 
-            
-            {
-            "w1":"yo ko ni i ra re ru to o mo i da su",
-            
-            "w2":"横（よこ）にいられると思（おも）い出（だ）す",
-            
-            "w3":"却会想起你在我身边的时候"
-           }, 
-            
-            {
-            "w1":"ki mi no do ru che an do ga bba a na no so no ko u su i no se i da yo",
-            
-            "w2":"君（きみ）のドルチェ&ガッバーナのその香水（こうすい）のせいだよ",
-            
-            "w3":"这都要怪你用的杜嘉班纳香水"
-           }, 
-            
-            {
-            "w1":"i ma sa ra ki mi ni a tte sa",
-            
-            "w2":"今更君（いまさらきみ）に会（あ）ってさ",
-            
-            "w3":"事到如今与你再见"
-           }, 
-            
-            {
-            "w1":"bo ku ha na ni wo i tta ra i i",
-            
-            "w2":"僕（ぼく）は何（なに）を言（い）ったいい",
-            
-            "w3":"我又该说些什么呢"
-           }, 
-            
-            {
-            "w1":"ka wa i ku na tta ne",
-            
-            "w2":"「可愛（かわい）くなったね」",
-            
-            "w3":"「变可爱了呢」"
-           }, 
-            
-            {
-            "w1":"ku chi sa ki de shi ka i e na i yo",
-            
-            "w2":"口先（くちさき）でしか言（い）えないよ",
-            
-            "w3":"也只能说些生分的寒暄了吧"
-           }, 
-            
-            {
-            "w1":"do u shi ta no   i ki na ri sa",
-            
-            "w2":"どうしたの   いきなりさ",
-            
-            "w3":"到底怎么了 你忽然之间"
-           }, 
-            
-            {
-            "w1":"ta ba ko na n ka ku wa e da shi te",
-            
-            "w2":"タバコなんかくわえだして",
-            
-            "w3":"开始抽起香烟"
-           }, 
-            
-            {
-            "w1":"ka na shi ku na i yo     ka na shi ku na i yo ",
-            
-            "w2":"悲（かな）しくないよ    悲（かな）しくない",
-            
-            "w3":"我不难过也不悲伤"
-           }, 
-            
-            {
-            "w1":"ki mi ga ka wa tta da ke da ka ra ",
-            
-            "w2":"君（きみ）が変（か）わっただけだから",
-            
-            "w3":"只是你已不在是从前的你"
-           }, 
-            
-            {
-            "w1":"de mo mi te yo i ma no bo ku wo",
-            
-            "w2":"でもみてよ今（いま）の僕（ぼく）を",
-            
-            "w3":"但是看啊 如今的我"
-           }, 
-            
-            {
-            "w1":"ka ra ppo no bo ku wo",
-            
-            "w2":"空（から）っぽの僕（ぼく）を",
-            
-            "w3":"形如空壳的我"
-           }, 
-            
-            {
-            "w1":"hi to ni u so tsu i te ke i be tsu sa re te",
-            
-            "w2":"人（ひと）に嘘（うそ）ついて軽蔑（けいべつ）されて",
-            
-            "w3":"就算满嘴谎言受到轻视"
-           }, 
-            
-            {
-            "w1":"na mi da hi to tsu mo de na ku te sa",
-            
-            "w2":"涙（なっみだ）ひとつもでなくてさ",
-            
-            "w3":"也不会留下一滴眼泪"
-           }, 
-            
-            {
-            "w1":"be tsu ni ki mi wo mo to me te na i ke do",
-            
-            "w2":"別（べつ）に君（きみ）を求（もと）めてないけど",
-            
-            "w3":"我对你没有怎样的奢求"
-           }, 
-            
-            {
-            "w1":"yo ko ni i ra re ru to o mo i da su",
-            
-            "w2":"横（よこ）にいられると思（おも）い出（だ）す",
-            
-            "w3":"却回想起你在我身边"
-           }, 
-            
-            {
-            "w1":"ki mi no do ru che an do ga bba a na no so no ko u su i no se i da yo",
-            
-            "w2":"君（きみ）のドルチェ&ガッバーナのその香水（こうすい）のせいだよ",
-            
-            "w3":"这都要怪你用的杜嘉班纳香水"
-           }, 
-            
-            {
-            "w1":"be tsu ni ki mi wo ma ta su ki ni na ru ko to na n te a ri e na i ke do",
-            
-            "w2":"別に君をまた好きになることなんてありえないけど",
-            
-            "w3":"我怎么可能会再次爱上你 这种事怎么可能发生"
-           }, 
-            
-            {
-            "w1":"ki mi no do ru che an do ga bba a na no ko u su i ga o mo i da sa se ru",
-            
-            "w2":"君（きみ）のドルチェ&ガッバーナの香水（こうすい）が思（おも）い出（だ）させる",
-            
-            "w3":"只是你的杜嘉班纳  那香水总让我回忆起从前"
-           }, 
-            
-            {
-            "w1":"na ni mo na ku te mo ta no shi ka tta ko ro ni",
-            
-            "w2":"何（なに）もなくても楽（たの）しかった頃（ころ）に",
-            
-            "w3":"就算一无所有却无比快乐的时光"
-           }, 
-            
-            {
-            "w1":"mo do ri ta i to ka ha o mo wa na i ke do",
-            
-            "w2":"戻（もど）りたいとかは思（おも）わないけど",
-            
-            "w3":"并不想回到那样的过去"
-           }, 
-            
-            {
-            "w1":"ki mi no me wo mi ru to o mo u",
-            
-            "w2":"君（きみ）の目（め）を見（み）ると思（おも）う",
-            
-            "w3":"但一旦看见你的眼眸总不禁产生念想"
-           }, 
-            
-            
-            
-            {
-            "w1":"be tsu ni ki mi wo mo to me te na i ke do",
-            
-            "w2":"別（べつ）に君（きみ）を求（もと）めてないけど",
-            
-            "w3":"我对你没有怎样的奢求"
-           }, 
-            
-            {
-            "w1":"yo ko ni i ra re ru to o mo i da su",
-            
-            "w2":"横（よこ）にいられると思（おも）い出（だ）す",
-            
-            "w3":"却会想起你在我身边的时候"
-           }, 
-            
-            {
-            "w1":"ki mi no do ru che an do ga bba a na no so no ko u su i no se i da yo",
-            
-            "w2":"君（きみ）のドルチェ&ガッバーナのその香水（こうすい）のせいだよ",
-            
-            "w3":"这都要怪你用的杜嘉班纳香水"
-           }, 
-            
-            {
-            "w1":"be tsu ni ki mi wo ma ta su ki ni na ru ku ra i ki mi ha su te ki na hi to da yo",
-            
-            "w2":"別（べつ）に君（きみ）をまた好（す）きになるくらい君（きみ）は素敵（すでき）な人（ひと）だよ",
-            
-            "w3":"怎么会再次爱上那样动人的你"
-           }, 
-            
-            {
-            "w1":"de mo ma ta o na ji ko to no ku ri ka e shi tte",
-            
-            "w2":"でもまた同（おな）じことの繰（く）り返（かえ）しって",
-            
-            "w3":"可我一定会重蹈覆辙"
-           }, 
-            
-            {
-            "w1":"bo ku ga fu ra re run da",
-            
-            "w2":"僕がフラれるんだ",
-
-            "w3":"再次被你抛弃吧"
-        }]
+          "w1": "しゅうと、やさしいよ",
+          "w2": "姑、優しいよ",
+          "w3": "我婆婆很和蔼"
         }
-    ]
+      ]
+    },
+    {
+      "id": "2",
+      "title": "生活日语",
+      "author": "好好学日文",
+      "provenance": "youtober",
+      "musicurl": "",
+      "remarks": "",
+      "words": [
+        {
+          "w1": "わたしはしらない",
+          "w2": "私は知らない",
+          "w3": "我不知道"
+        }
+      ]
+    },
+    {
+      "id": "3",
+      "title": "前前前世",
+      "author": "野田洋次郎",
+      "provenance": "你的名字",
+      "musicurl": "",
+      "remarks": "",
+      "words": [
+        {
+          "w1": "yatto me o samashi takai",
+          "w2": "やっと眼を覚ましたかい",
+          "w3": "总算睡醒了吗"
+        },
+        {
+          "w1": "sorenanoni naze me mo awaseyashinai n dai",
+          "w2": "それなのになぜ眼も合わせやしないんだい?",
+          "w3": "可你为什么不肯对上我的视线呢？"
+        },
+        {
+          "w1": "「osoi yo」 to okoru kimi",
+          "w2": "「遅いよ」と怒る君",
+          "w3": "可你为什么不肯对上我的视线呢？"
+        },
+        {
+          "w1": "kore demo yareru dake tobashite kita nda yo",
+          "w2": "これでもやれるだけ 飞ばしてきたんだよ",
+          "w3": "可即便如此我也已经尽我所能 以最快的速度飞奔到你的身边"
+        },
+        {
+          "w1": "kokoro ga karada o oikoshite kita nda yo",
+          "w2": "心が身体を追い越してきたんだよ",
+          "w3": "心脏甚至比身体先一步抵达了这里"
+        },
+        {
+          "w1": "kimi no kami ya hitomi dake de munegaitai yo",
+          "w2": "君の髪や瞳だけで胸が痛いよ",
+          "w3": "只是望着你的发丝和你的眼眸就让我痛彻心扉"
+        },
+        {
+          "w1": "onaji toki o suikonde hanashitakunai yo",
+          "w2": "同じ时を吸いこんで 离したくないよ",
+          "w3": "想和你呼吸在当下 再也不想和你分开"
+        },
+        {
+          "w1": "haruka mukashikara shiru sono-goe ni",
+          "w2": "遥か昔から知るその声に",
+          "w3": "很久很久以前就熟稔于心的声音"
+        },
+        {
+          "w1": "umarete hajimete nani o ieba i",
+          "w2": "生まれてはじめて 何を言えばいい?",
+          "w3": "有生以来第一次烦恼着 该如何回应？"
+        },
+        {
+          "w1": "kimi no zen zen zense kara boku wa",
+          "w2": "君の前前前世から仆は",
+          "w3": "从你的前前前世开始"
+        },
+        {
+          "w1": "kimi o sagashi hajimeta yo",
+          "w2": "君を探しはじめたよ",
+          "w3": "我就一直在寻找你的踪迹"
+        },
+        {
+          "w1": "sono bukitchona warai-kata o megakete yatte kita nda yo",
+          "w2": "そのぶきっちょな 笑い方をめがけてやってきたんだよ",
+          "w3": "循着你那笨拙的笑容 总算找到了这个地方"
+        },
+        {
+          "w1": "kimi ga zenzen zenbu nakunatte",
+          "w2": "君が全然全部なくなって",
+          "w3": "就算你的一切化为乌有"
+        },
+        {
+          "w1": "chiridjiri ni nattatte",
+          "w2": "チリヂリになったって",
+          "w3": "支离破碎散落世界各处"
+        },
+        {
+          "w1": "mo mayowanai mata ichi kara sagashi hajimeru-sa",
+          "w2": "もう迷わない また1から探しはじめるさ",
+          "w3": "我也不会再迷茫 我会从头开始再一次寻找"
+        },
+        {
+          "w1": "mushiro zero kara mata uchu o hajimete miyou ka",
+          "w2": "むしろ0から また宇宙をはじめてみようか",
+          "w3": "不如说就这样从零开始 再创造一个全新的宇宙"
+        },
+        {
+          "w1": "dokkara hanasu ka na",
+          "w2": "どっから话すかな",
+          "w3": "该从哪儿说起呢"
+        },
+        {
+          "w1": "kimi ga nemutte ita aida no sutori",
+          "w2": "君が眠っていた间のストーリー",
+          "w3": "在你沉睡这段期间的故事"
+        },
+        {
+          "w1": "nan oku nan-konen-bun no monogatari o katari ni kita nda yo",
+          "w2": "何亿 何光年分の物语を 语りにきたんだよ",
+          "w3": "历经上亿光年所编织的故事 我就是为了将其述说而来到这里的"
+        },
+        {
+          "w1": "kedo iza sono sugata kono me ni utsusu to",
+          "w2": "けどいざその姿この眼に映すと",
+          "w3": "但是当你的身影映入我的眼帘"
+        },
+        {
+          "w1": "kimi mo shiranu kimi to jarete tawamuretai yo",
+          "w2": "君も知らぬ君とジャレて戯れたいよ",
+          "w3": "我却想和你也不曾知晓的自己说笑玩闹"
+        },
+        {
+          "w1": "kimi no kienu itami made aishite mitai yo",
+          "w2": "君の消えぬ痛みまで 爱してみたいよ",
+          "w3": "包括长久纠缠你的苦痛 我也想一并地爱惜包容"
+        },
+        {
+          "w1": "ginga nankobun ka no hate ni deaeta",
+          "w2": "银河何个分かの果てに出逢えた その手を壊さずに",
+          "w3": "数不清是第几次穿越银河 才终于在尽头和你邂逅"
+        },
+        {
+          "w1": "sono-te o kowasazu ni do nigittanara i",
+          "w2": "どう握ったならいい",
+          "w3": "我该如何小心翼翼紧握住你的手才好？"
+        },
+        {
+          "w1": "kimi no zen zen zense kara boku wa",
+          "w2": "君の前前前世から仆は",
+          "w3": "从你的前前前世开始"
+        },
+        {
+          "w1": "kimi o sagashi hajimeta yo",
+          "w2": "君を探しはじめたよ",
+          "w3": "我就一直在寻找你的踪迹"
+        },
+        {
+          "w1": "sono sawagashi koe to namida o megake yatte kita nda yo",
+          "w2": "その騒がしい声と涙をめがけ やってきたんだよ",
+          "w3": "循着那喧嚣的噪音和你的眼泪 总算找到了这个地方"
+        },
+        {
+          "w1": "son'na kakumei zen'ya no bokura o",
+          "w2": "そんな革命前夜の仆らを",
+          "w3": "处于革命前夜的我们"
+        },
+        {
+          "w1": "dare ga tomeru to iu ndarou",
+          "w2": "谁が止めるというんだろう",
+          "w3": "你说还有谁能阻止呢"
+        },
+        {
+          "w1": "mo mayowanai kimi no haato ni hatawotateru yo",
+          "w2": "もう迷わない君のハートに旗を立てるよ",
+          "w3": "我已经不会再迷茫 在你的心中竖起属于我的旗帜"
+        },
+        {
+          "w1": "kimi wa boku kara akirame-kata o ubaitotta no",
+          "w2": "君は仆から谛め方を夺い取ったの",
+          "w3": "我放弃的念头早就被你夺走了"
+        },
+        {
+          "w1": "zen zen zense kara boku wa",
+          "w2": "前前前世から仆は",
+          "w3": "从你的前前前世开始"
+        },
+        {
+          "w1": "kimi o sagashi hajimeta yo",
+          "w2": "君を探しはじめたよ",
+          "w3": "我就一直在寻找你的踪迹"
+        },
+        {
+          "w1": "sono bukitchona warai-kata o megakete yatte kita nda yo",
+          "w2": "そのぶきっちょな 笑い方をめがけて やってきたんだよ",
+          "w3": "循着你那笨拙的笑容 总算找到了这个地方"
+        },
+        {
+          "w1": "kimi ga zenzen zenbu nakunatte",
+          "w2": "君が全然全部なくなって",
+          "w3": "就算你的一切化为乌有"
+        },
+        {
+          "w1": "chiridjiri ni nattatte",
+          "w2": "チリヂリになったって",
+          "w3": "支离破碎散落世界各处"
+        },
+        {
+          "w1": "mo mayowanai mata ichi kara sagashi hajimeru-sa",
+          "w2": "もう迷わない また1から探しはじめるさ",
+          "w3": "我也不会再迷茫 我会从头开始再一次寻找"
+        },
+        {
+          "w1": "nan-konen demo konoutawo kuchizusaminagara",
+          "w2": "何光年でも この歌を口ずさみながら",
+          "w3": "不管相隔多少个光年 我都会继续哼唱起这首歌"
+        }
+      ]
+    },
+    {
+      "id": "4",
+      "title": "香水",
+      "author": "",
+      "provenance": "",
+      "musicurl": "",
+      "remarks": "",
+      "words": [
+        {
+          "w1": "yo na ka ni i ki na ri sa    i tsu a i te ru no tte ra i n",
+          "w2": "夜中（よなか）いきなりさ  いつ空（あ）いてるのって LINE(ライン)",
+          "w3": "深夜时分你突然发来LINE  问我什么时候有空"
+        },
+        {
+          "w1": "ki mi to ha mo u san nen ku ra i a tte na i no ni do u shi ta no",
+          "w2": "君（きみ）とはもう三年（さんねん）くらい会（あ）ってないのにどうしたの",
+          "w3": "已经和你约三年不见  如今这又是怎么了呢"
+        },
+        {
+          "w1": "a no ko ro bo ku ta chi ha sa nan de mo de ki ru ki ga shi te ta",
+          "w2": "あの頃僕達（ころぼくたち）はさなんでもできる気がしてた",
+          "w3": "那时候的我们啊，感觉自己无所不能"
+        },
+        {
+          "w1": "fu ta ri de u mi ni i tte ha ta ku san sya shin to tta ne",
+          "w2": "二人（ふたり）で海（うみ）に行（い）ってはたくさん写真撮（しゃしんと）ったね",
+          "w3": "两个人一起去了海边拍了很多照片呢"
+        },
+        {
+          "w1": "de mo mi te yo i ma no bo ku wo",
+          "w2": "でもみてよ今（いま）の僕（ぼく）を",
+          "w3": "但是看啊 如今的我"
+        },
+        {
+          "w1": "ku zu ni na tta bo ku wo",
+          "w2": "クズになった僕（ぼく）を",
+          "w3": "这变得混蛋的我"
+        },
+        {
+          "w1": "hi to wo ki zu tsu ke te ma ta na ka se te mo",
+          "w2": "人（ひと）を傷（きず）つけてまた泣（な）かせても",
+          "w3": "即使让人受伤哭泣"
+        },
+        {
+          "w1": "na ni mo kan ji to re na ku te sa",
+          "w2": "何（なに）も感（かん）じ取（と）れなくてさ",
+          "w3": "我都已经无动于衷"
+        },
+        {
+          "w1": "be tsu ni ki mi wo mo to me te na i ke do",
+          "w2": "別（べつ）に君（きみ）を求（もと）めてないけど",
+          "w3": "我对你没有怎样的奢求"
+        },
+        {
+          "w1": "yo ko ni i ra re ru to o mo i da su",
+          "w2": "横（よこ）にいられると思（おも）い出（だ）す",
+          "w3": "却会想起你在我身边的时候"
+        },
+        {
+          "w1": "ki mi no do ru che an do ga bba a na no so no ko u su i no se i da yo",
+          "w2": "君（きみ）のドルチェ&ガッバーナのその香水（こうすい）のせいだよ",
+          "w3": "这都要怪你用的杜嘉班纳香水"
+        },
+        {
+          "w1": "i ma sa ra ki mi ni a tte sa",
+          "w2": "今更君（いまさらきみ）に会（あ）ってさ",
+          "w3": "事到如今与你再见"
+        },
+        {
+          "w1": "bo ku ha na ni wo i tta ra i i",
+          "w2": "僕（ぼく）は何（なに）を言（い）ったいい",
+          "w3": "我又该说些什么呢"
+        },
+        {
+          "w1": "ka wa i ku na tta ne",
+          "w2": "「可愛（かわい）くなったね」",
+          "w3": "「变可爱了呢」"
+        },
+        {
+          "w1": "ku chi sa ki de shi ka i e na i yo",
+          "w2": "口先（くちさき）でしか言（い）えないよ",
+          "w3": "也只能说些生分的寒暄了吧"
+        },
+        {
+          "w1": "do u shi ta no   i ki na ri sa",
+          "w2": "どうしたの   いきなりさ",
+          "w3": "到底怎么了 你忽然之间"
+        },
+        {
+          "w1": "ta ba ko na n ka ku wa e da shi te",
+          "w2": "タバコなんかくわえだして",
+          "w3": "开始抽起香烟"
+        },
+        {
+          "w1": "ka na shi ku na i yo     ka na shi ku na i yo ",
+          "w2": "悲（かな）しくないよ    悲（かな）しくない",
+          "w3": "我不难过也不悲伤"
+        },
+        {
+          "w1": "ki mi ga ka wa tta da ke da ka ra ",
+          "w2": "君（きみ）が変（か）わっただけだから",
+          "w3": "只是你已不在是从前的你"
+        },
+        {
+          "w1": "de mo mi te yo i ma no bo ku wo",
+          "w2": "でもみてよ今（いま）の僕（ぼく）を",
+          "w3": "但是看啊 如今的我"
+        },
+        {
+          "w1": "ka ra ppo no bo ku wo",
+          "w2": "空（から）っぽの僕（ぼく）を",
+          "w3": "形如空壳的我"
+        },
+        {
+          "w1": "hi to ni u so tsu i te ke i be tsu sa re te",
+          "w2": "人（ひと）に嘘（うそ）ついて軽蔑（けいべつ）されて",
+          "w3": "就算满嘴谎言受到轻视"
+        },
+        {
+          "w1": "na mi da hi to tsu mo de na ku te sa",
+          "w2": "涙（なっみだ）ひとつもでなくてさ",
+          "w3": "也不会留下一滴眼泪"
+        },
+        {
+          "w1": "be tsu ni ki mi wo mo to me te na i ke do",
+          "w2": "別（べつ）に君（きみ）を求（もと）めてないけど",
+          "w3": "我对你没有怎样的奢求"
+        },
+        {
+          "w1": "yo ko ni i ra re ru to o mo i da su",
+          "w2": "横（よこ）にいられると思（おも）い出（だ）す",
+          "w3": "却回想起你在我身边"
+        },
+        {
+          "w1": "ki mi no do ru che an do ga bba a na no so no ko u su i no se i da yo",
+          "w2": "君（きみ）のドルチェ&ガッバーナのその香水（こうすい）のせいだよ",
+          "w3": "这都要怪你用的杜嘉班纳香水"
+        },
+        {
+          "w1": "be tsu ni ki mi wo ma ta su ki ni na ru ko to na n te a ri e na i ke do",
+          "w2": "別に君をまた好きになることなんてありえないけど",
+          "w3": "我怎么可能会再次爱上你 这种事怎么可能发生"
+        },
+        {
+          "w1": "ki mi no do ru che an do ga bba a na no ko u su i ga o mo i da sa se ru",
+          "w2": "君（きみ）のドルチェ&ガッバーナの香水（こうすい）が思（おも）い出（だ）させる",
+          "w3": "只是你的杜嘉班纳  那香水总让我回忆起从前"
+        },
+        {
+          "w1": "na ni mo na ku te mo ta no shi ka tta ko ro ni",
+          "w2": "何（なに）もなくても楽（たの）しかった頃（ころ）に",
+          "w3": "就算一无所有却无比快乐的时光"
+        },
+        {
+          "w1": "mo do ri ta i to ka ha o mo wa na i ke do",
+          "w2": "戻（もど）りたいとかは思（おも）わないけど",
+          "w3": "并不想回到那样的过去"
+        },
+        {
+          "w1": "ki mi no me wo mi ru to o mo u",
+          "w2": "君（きみ）の目（め）を見（み）ると思（おも）う",
+          "w3": "但一旦看见你的眼眸总不禁产生念想"
+        },
+        {
+          "w1": "be tsu ni ki mi wo mo to me te na i ke do",
+          "w2": "別（べつ）に君（きみ）を求（もと）めてないけど",
+          "w3": "我对你没有怎样的奢求"
+        },
+        {
+          "w1": "yo ko ni i ra re ru to o mo i da su",
+          "w2": "横（よこ）にいられると思（おも）い出（だ）す",
+          "w3": "却会想起你在我身边的时候"
+        },
+        {
+          "w1": "ki mi no do ru che an do ga bba a na no so no ko u su i no se i da yo",
+          "w2": "君（きみ）のドルチェ&ガッバーナのその香水（こうすい）のせいだよ",
+          "w3": "这都要怪你用的杜嘉班纳香水"
+        },
+        {
+          "w1": "be tsu ni ki mi wo ma ta su ki ni na ru ku ra i ki mi ha su te ki na hi to da yo",
+          "w2": "別（べつ）に君（きみ）をまた好（す）きになるくらい君（きみ）は素敵（すでき）な人（ひと）だよ",
+          "w3": "怎么会再次爱上那样动人的你"
+        },
+        {
+          "w1": "de mo ma ta o na ji ko to no ku ri ka e shi tte",
+          "w2": "でもまた同（おな）じことの繰（く）り返（かえ）しって",
+          "w3": "可我一定会重蹈覆辙"
+        },
+        {
+          "w1": "bo ku ga fu ra re run da",
+          "w2": "僕がフラれるんだ",
+          "w3": "再次被你抛弃吧"
+        }
+      ]
+    },
+    {
+      "id": "5",
+      "title": "lemon",
+      "author": "米津玄師",
+      "provenance": "非自然死亡",
+      "musicurl": "",
+      "remarks": "",
+      "words": [
+        {
+          "w2": "梦（ゆめ）ならばどれほどよかったでしょう",
+          "w1": "yume naraba dore hodo yokatta deshou",
+          "w3": "如果这一切都是梦境该有多好"
+        },
+        {
+          "w2": "未（いま）だにあなたのことを梦（ゆめ）にみる",
+          "w1": "imada ni anata no koto wo yume ni miru",
+          "w3": "至今仍能与你在 梦中相遇"
+        },
+        {
+          "w2": "忘（わす）れた物（もの）を取（と）りに帰（かえ）るように",
+          "w1": "wasureta mono wo tori ni kaeru youni",
+          "w3": "如同取回遗忘之物一般"
+        },
+        {
+          "w2": "古（ふる）びた思（おも）い出（で）の埃（ほこり）を払（はら）う",
+          "w1": "furubita omoide no hokori wo harau",
+          "w3": "细细拂去将回忆覆盖的尘埃"
+        },
+        {
+          "w2": "戻（もど）らない幸（しあわ）せがあることを",
+          "w1": "modora nai shiawase ga aru koto wo",
+          "w3": "这世间亦有无法挽回的 幸福"
+        },
+        {
+          "w2": "最後（さいご）にあなたが教（おし）えてくれた",
+          "w1": "saigo ni anata ga oshiete kureta",
+          "w3": "最终是你让我懂得这一点"
+        },
+        {
+          "w2": "言（い）えずに隠（かくし）してた昏（くら）い过去（かこ）も",
+          "w1": "iezu ni kakushiteta kurai kako mo",
+          "w3": "那些未对他人提及过的黑暗往事"
+        },
+        {
+          "w2": "あなたがいなきゃ永远（えいえん）に昏（くら）いま ま",
+          "w1": "anata ga inakya eien ni kurai mama",
+          "w3": "如果不曾有你的话 它们将永远沉睡在黑暗中"
+        },
+        {
+          "w2": "きっともうこれ以上 伤（きず）つくことなど",
+          "w1": "kitto mou kore ijou kizu tsuku koto nado",
+          "w3": "比这更令人难过的事情"
+        },
+        {
+          "w2": "ありはしないとわかっ ている",
+          "w1": "ari wa shinai to wakatte iru",
+          "w3": "我知道不可能存在"
+        },
+        {
+          "w2": "あの日 （ひ）の悲（かな）しみさえ",
+          "w1": "ano hi no kanashimi sae",
+          "w3": "那日的悲伤"
+        },
+        {
+          "w2": "あの日（ひ）の苦（くる）しみさえ",
+          "w1": "ano hi no kurushimi sae",
+          "w3": "与那日的痛苦"
+        },
+        {
+          "w2": "そのすべてを爱（あい）してた あなたとともに",
+          "w1": "sono subete wo aishiteta anata to tomoni",
+          "w3": "连同深爱着这一切的你"
+        },
+        {
+          "w2": "胸（むね）に残（のこ）り 离（はな）れない",
+          "w1": "mune ni nokori hanare nai",
+          "w3": "化作了深深烙印在我心中的"
+        },
+        {
+          "w2": "苦（にが）いレモンの匂（にお）い",
+          "w1": "nigai remon no nioi",
+          "w3": "苦涩柠檬的香气"
+        },
+        {
+          "w2": "雨（あめ）が降（ふ）り止（や）むまでは帰（かえ）れない",
+          "w1": "ame ga furiyamu made wa kaere nai",
+          "w3": "在雨过天晴前都无法归去"
+        },
+        {
+          "w2": "今（いま）でも あなたはわたしの光（ひかり）",
+          "w1": "ima demo anata wa watashi no hikari",
+          "w3": "时至今日 你仍是我的光芒"
+        },
+        {
+          "w2": "暗闇（くらやみ）であなたの背（せ）をなぞった",
+          "w1": "kurayami de anata no se wo nazotta",
+          "w3": "在黑暗中追寻着你的身影"
+        },
+        {
+          "w2": "その轮郭（ りんかく）を鲜明（せんめい）に覚（おぼ）えている",
+          "w1": "sono rinkaku wo senmei ni oboete iru",
+          "w3": "那轮廓至今仍鲜明地刻印于心"
+        },
+        {
+          "w2": "受（う）け止（と）めきれないものと出会（であ）うたび",
+          "w1": "uketome kire nai mono to deau tabi",
+          "w3": "每当遇到无 法承受的苦痛时"
+        },
+        {
+          "w2": "溢（あふ）れてやまないのは涙だけ",
+          "w1": "afurete yama nai no wa namida dake",
+          "w3": "总不禁泪如泉涌"
+        },
+        {
+          "w2": "何（なに）をしていたの",
+          "w1": "nani wo shite ita no",
+          "w3": "你都经历过什么"
+        },
+        {
+          "w2": "何（なに）を见（み）ていたの",
+          "w1": "nani wo mite ita no",
+          "w3": "又目睹过什么呢"
+        },
+        {
+          "w2": "わたしの知（し）らない横颜（よこ がお）で",
+          "w1": "watashi no shira nai yokogao de",
+          "w3": "脸上浮现着我不曾见过的神情"
+        },
+        {
+          "w2": "どこかであなたが今（いま）",
+          "w1": "dokoka de anata ga ima",
+          "w3": "如果你正在 什么地方"
+        },
+        {
+          "w2": "わたしと同（おな）じ様（よう）な",
+          "w1": "watashi to onaji youna",
+          "w3": "与我一样"
+        },
+        {
+          "w2": "涙（なみだ）にくれ 淋（さび）しさの中（なか）にいるなら",
+          "w1": "namida ni kure samishisa no naka ni iru nara",
+          "w3": "终日过着以泪洗面的寂寞生活的话"
+        },
+        {
+          "w2": "わたしのことなどどうか 忘（わす）れてください",
+          "w1": "watashi no koto nado douka wasurete kudasai",
+          "w3": "就请你将我的一切全部遗忘吧"
+        },
+        {
+          "w2": "そんなことを心（こころ）から愿（ねが）うほどに",
+          "w1": "sonna koto wo kokoro kara negau hodo ni",
+          "w3": "这是我发自内深处唯一的祈愿"
+        },
+        {
+          "w2": "今（いま）でもあなたはわたしの光（ひかり）",
+          "w1": "ima demo anata wa watashi no hikari",
+          "w3": "时至今日 你仍是我的光芒"
+        },
+        {
+          "w2": "自分（じぶん）が思（おも）うより 恋（こい）をしていたあなたに",
+          "w1": "jibun ga omou yori koi wo shite ita anata ni",
+          "w3": "我深深地恋慕着你 甚至超出了我自己的想象"
+        },
+        {
+          "w2": "あれから思（おも）うように 息（いき）ができない",
+          "w1": "are kara omou youni iki ga deki nai",
+          "w3": "自此每当想起你 都如同窒息般痛苦"
+        },
+        {
+          "w2": "あんなに侧（そば）にい たのにまるで嘘（うそ）みたい",
+          "w1": "annani soba ni ita noni marude uso mitai",
+          "w3": "你曾亲密伴我身旁 如今却如烟云般消散"
+        },
+        {
+          "w2": "とても忘（わす）れられないそれだけが确（たし）か",
+          "w1": "totemo wasurerare nai sore dake ga tashika",
+          "w3": "唯一能确定的是 我永远都不会将你遗忘"
+        },
+        {
+          "w2": "あの日（ひ）の悲（かな）しみさえ",
+          "w1": "ano hi no kanashimi sae",
+          "w3": "那日的悲伤"
+        },
+        {
+          "w2": "あの日（ひ）の苦（くる）しみさえ",
+          "w1": "ano hi no kurushimi sae",
+          "w3": "与那日的痛苦"
+        },
+        {
+          "w2": "その全（すべ）てを爱（あい）してたあなたと共（とも）に",
+          "w1": "sono subete wo aishiteta anata to tomoni",
+          "w3": "连同深爱着这一切的你"
+        },
+        {
+          "w2": "胸（むね）に残（のこ）り离（はな）れない",
+          "w1": "mune ni nokori hanare nai",
+          "w3": "化作了深深烙印在我心中的"
+        },
+        {
+          "w2": "苦（にが）いレモンの匂（にお）い",
+          "w1": "nigai remon no nioi",
+          "w3": "苦涩柠檬的香气"
+        },
+        {
+          "w2": "雨（あめ）が降（ふ）り止（や）むまでは帰（ かえ）れない",
+          "w1": "ame ga furiyamu made wa kaere nai",
+          "w3": "在雨过天晴前都无法归去"
+        },
+        {
+          "w2": "切（き）り分（わ）けた果実（かじつ）の片方（かたほう）の様（ よう）に",
+          "w1": "kiiwaketa kajitsu no katahou no youni",
+          "w3": "如同被切开的半个柠檬一般"
+        },
+        {
+          "w2": "今（いま）でもあなたはわたしの光（ひかり）",
+          "w1": "ima demo anata wa watashi no hikari",
+          "w3": "时至今日你仍是我的光芒"
+        }
+      ]
+    }
+  ]
 }
